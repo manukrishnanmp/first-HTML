@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact us Form</title>
+  <link href="style1.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+  <header>
+    <h1 style="margin: 0;">Contact Us</h1>
+  </header>
+  <div class="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form">
+    <label for="gender">Gender:</label>
+    <div class="options">
+      <label>
+        <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female"> Female
+      </label>
+      <label>
+        <input type="radio" name="gender" value="other"> Other
+      </label>
+  </div>
+
+  <div class="form">
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+  </div>
+
+  <div class="form">
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+
+  <button type="submit">Submit</button>
+
+  
+  <br>
+  <br>
+  <br>
+</form>
+<footer>
+    <p>&copy; 2023.Made by Manu Krishnan.</p>
+  </footer>
+</body>
+</html>
